@@ -14,10 +14,13 @@ Esta API será utilizada principalmente por los visitantes de la aplicación web
 
 ## ¿Desde dónde se puede acceder?
 
-Esta API está alojada en Heroku y se puede acceder desde cualquier lugar con una conexión a Internet. La dirección exacta de la API dependerá de la configuración de Heroku.
+Esta API está alojada en Vercel y se puede acceder desde cualquier lugar con una conexión a Internet. La dirección exacta de la API dependerá de la configuración de Vercel.
 
 ## Tecnologías y frameworks utilizados
 
+- **HTML**: Lenguaje de marcado utilizado para la estructura y el contenido de la página web.
+- **CSS**: Lenguaje de hojas de estilo utilizado para describir la presentación de la página web.
+- **JavaScript**: Lenguaje de programación utilizado para la interactividad de la página web.
 - **Node.js**: Un entorno de ejecución de JavaScript en el servidor. Se utiliza para crear el servidor de la API.
 - **Express.js**: Un marco de aplicación web para Node.js. Se utiliza para manejar las solicitudes HTTP a la API.
 - **MySQL**: Un sistema de gestión de bases de datos relacional. Se utiliza para almacenar los datos de los platos de ramen y las bebidas.

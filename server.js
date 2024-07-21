@@ -10,12 +10,15 @@ const app = express();
 // Usamos el middleware CORS para permitir solicitudes de origen cruzado
 app.use(cors());
 
+// Servimos archivos estáticos desde la carpeta 'public'
+app.use(express.static("public"));
+
 // Definimos el puerto en el que se ejecutará nuestro servidor
 const port = process.env.PORT || 5000;
 
 // Definimos una ruta de prueba para verificar que nuestro servidor está funcionando
 app.get("/", (req, res) => {
-  res.send("Hello World!");
+  res.sendFile(__dirname + "/public/index.html");
 });
 
 // Creamos una conexión a nuestra base de datos MySQL
