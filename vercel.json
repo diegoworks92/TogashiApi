@@ -9,6 +9,10 @@
   ],
   "routes": [
     {
+      "src": "/(.*).(js|css|ico)",
+      "dest": "/public/$1.$2"
+    },
+    {
       "src": "/(.*)",
       "dest": "server.js"
     }
