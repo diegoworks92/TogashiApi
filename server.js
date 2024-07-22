@@ -55,6 +55,14 @@ app.get("/drinks", (req, res) => {
   });
 });
 
+app.get("/desserts", (req, res) => {
+  connection.query("SELECT * FROM desserts", (err, results) => {
+    if (err) throw err;
+
+    res.json(results);
+  });
+});
+
 // Iniciamos nuestro servidor en el puerto especificado
 app.listen(port, () => {
   console.log(`Server is running at http://localhost:${port}`);
