@@ -11,7 +11,7 @@ const app = express();
 app.use(cors());
 
 // Servimos archivos estáticos desde la carpeta 'public'
-app.use(express.static("public"));
+app.use(express.static(__dirname + "/public"));
 
 // Definimos el puerto en el que se ejecutará nuestro servidor
 const port = process.env.PORT || 5000;
