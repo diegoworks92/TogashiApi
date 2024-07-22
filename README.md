@@ -14,7 +14,7 @@ Esta API será utilizada principalmente por los visitantes de la aplicación web
 
 ## ¿Desde dónde se puede acceder?
 
-Esta API está alojada en Vercel y se puede acceder desde cualquier lugar con una conexión a Internet. La dirección exacta de la API dependerá de la configuración de Vercel.
+Esta API está alojada en Vercel y se puede acceder desde cualquier lugar con una conexión a Internet. La dirección de la API es https://togashi-api.vercel.app/.
 
 ## Tecnologías y frameworks utilizados
 

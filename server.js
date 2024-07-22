@@ -18,7 +18,7 @@ const port = process.env.PORT || 5000;
 
 // Definimos una ruta de prueba para verificar que nuestro servidor está funcionando
 app.get("/", (req, res) => {
-  res.sendFile(__dirname + "/public/index.html");
+  res.sendFile(__dirname + "/index.html");
 });
 
 // Creamos una conexión a nuestra base de datos MySQL
