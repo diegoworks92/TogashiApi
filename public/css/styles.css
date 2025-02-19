@@ -1,16 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Permanent+Marker&family=Shadows+Into+Light&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Inter:wght@500&family=Nunito&family=Permanent+Marker&family=Shadows+Into+Light&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Creepster&family=Permanent+Marker&family=Shadows+Into+Light&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Creepster&family=Inter:wght@500&family=Nunito&family=Permanent+Marker&family=Shadows+Into+Light&display=swap");
 
 body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #1F1D2B;
+  background-color: #19211a;
   font-family: "Nunito", sans-serif;
   color: #fafafa;
   margin-left: 10%;
   margin-right: 10%;
   margin-bottom: 10%;
+}
+
+p {
+  color: #ddc6a7;
 }
 
 .logo {
@@ -23,18 +27,18 @@ body {
 
 h1 {
   text-align: center;
-  color: #C15B1C;
+  color: #b83a2e;
   font-family: "Permanent Marker", sans-serif;
 }
-h2{
+h2 {
   text-align: center;
-  color: #1E8D63;
+  color: #b83a2e;
   font-family: "Permanent Marker", sans-serif;
 }
-p{
+p {
   font-size: 20px;
 }
-div{   
+div {
   text-align: center;
 }
 
@@ -45,12 +49,12 @@ div p {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #1E8D63;
+  color: #1e8d63;
   font-size: 20px;
   font-family: "Permanent Marker", sans-serif;
 }
 
-.datos{
+.datos {
   margin-top: 50px;
 }
 
@@ -58,16 +62,13 @@ a {
   text-decoration: none;
 }
 
-
-
 a:link {
-  color: #C15B1C;
+  color: #b83a2e;
 }
 
 a:active {
-  color: #1E8D63; 
+  color: #1e8d63;
 }
-
 
 ul {
   text-align: start;
@@ -76,9 +77,8 @@ ul {
 li {
   margin-top: 10px;
   font-size: 20px;
+  color: #ddc6a7;
 }
-
-
 
 button {
   width: 100px;
@@ -91,18 +91,18 @@ button:hover {
 
 .button-container {
   display: flex;
-justify-content: center;
+  justify-content: center;
   align-items: center;
   margin-bottom: 40px;
 }
 
 .button-56 {
   align-items: center;
-  background-color: #C15B1C;
-  border: 2px solid #C15B1C;
+  background-color: #b83a2e;
+  border: 2px solid #b83a2e;
   border-radius: 8px;
   box-sizing: border-box;
-  color: #ffffff;
+  color: #ddc6a7;
   cursor: pointer;
   display: flex;
   font-family: "Permanent Marker", sans-serif;
@@ -121,7 +121,7 @@ justify-content: center;
 }
 
 .button-56:after {
-  background-color: #1E8D63;
+  background-color: #648862;
   border-radius: 8px;
   content: "";
   display: block;
@@ -131,7 +131,7 @@ justify-content: center;
   position: absolute;
   top: -2px;
   transform: translate(8px, 8px);
-  transition: transform .2s ease-out;
+  transition: transform 0.2s ease-out;
   z-index: -1;
 }
 
@@ -154,17 +154,13 @@ justify-content: center;
   }
 }
 
-
-
-
-
 @media (min-width: 768px) {
   .button-49,
   .button-49:after {
     width: 200px;
     height: 86px;
     line-height: 88px;
-}
+  }
 }
 
 @media (max-width: 767px) {

@@ -2,15 +2,11 @@
 
 ## Descripción
 
-Este proyecto es una API construida con Node.js, Express.js y MySQL. Proporciona endpoints para acceder a los datos de los platos de ramen y las bebidas ofrecidas por el restaurante Togashi.
+Este proyecto es una API construida con Node.js, Express.js y MySQL. Proporciona endpoints para acceder a los datos de los platos de ramen, las bebidas y los postres ofrecidos por el restaurante Togashi.
 
 ## ¿Para qué sirve?
 
-Esta API se utiliza para alimentar la aplicación web de React del restaurante Togashi Sapporo Ramen. La aplicación web llama a esta API para obtener los datos que necesita para mostrar a los usuarios los platos de ramen y las bebidas disponibles.
-
-## ¿Quién lo usará?
-
-Esta API será utilizada principalmente por los visitantes de la aplicación web del restaurante Togashi Sapporo Ramen. Los visitantes podrán ver los diferentes platos de ramen y bebidas disponibles en el menú del restaurante.
+Esta API se utiliza para alimentar la aplicación web de React del restaurante Togashi Sapporo Ramen. La aplicación web llama a esta API para obtener los datos que necesita para mostrar a los usuarios los platos de ramen, las bebidas y los postres disponibles.
 
 ## ¿Desde dónde se puede acceder?
 
@@ -33,5 +29,6 @@ Para utilizar esta API, puedes hacer solicitudes HTTP a los siguientes endpoints
 
 - `/ramen`: Devuelve una lista de todos los platos de ramen disponibles.
 - `/drinks`: Devuelve una lista de todas las bebidas disponibles.
+- `/desserts`: Devuelve una lista de todas las bebidas disponibles.
 
-Cada endpoint devuelve un array de objetos, donde cada objeto representa un plato de ramen o una bebida y contiene los siguientes campos: `id`, `type`, `img`, `name`, `description`, `price`, `spicy`, `vegetarian`, `vegan`, `quantity`.
+Cada endpoint devuelve un array de objetos, donde cada objeto representa un plato de ramen, una bebida o un postre y contiene los siguientes campos: `id`, `type`, `img`, `name`, `description`, `price`, `spicy`, `vegetarian`, `vegan`, `quantity`.
